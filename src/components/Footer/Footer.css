@@ -1,0 +1,118 @@
+.footer-header{
+    background-color: var(--background-color);
+    padding: 30px 144px;
+    text-align: center;
+}
+.footer-header h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color:#263238;
+    margin-bottom: 20px;
+}
+.footer-header button{
+    padding: 14px 32px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0 ;
+    outline: 0;
+}
+.footer-header button svg{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.footer-tail{
+    background-color: var(--footer-background);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 50px 144px;
+}
+.primary-grid{
+    color: var(--background-color);
+}
+.primary-grid img{
+    margin-bottom: 40px;
+}
+.primary-grid p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.primary-grid p span{
+    margin-bottom: 20px;
+}
+.social-logos{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.logo-circle{
+    width: 32px;
+    height: 32px;
+    background-color: var(--text-color-light);
+    border-radius: 50%;
+    display: block;
+    align-items: center;
+    justify-content: center;    
+    cursor: pointer;
+}
+.logo-circle:hover{
+    transform: scale(1.5);
+    transition: 0.2s ease-in-out;
+}
+.logo-circle img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 17px;
+}
+.footer-tail h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--background-color);
+    margin-bottom:24px ;
+}
+.footer-tags{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.footer-tags a{
+    text-decoration: none;
+    color: var(--background-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-tags a:hover{
+    color: #D9DBE1;
+}
+.footer-input{
+    background-color: #ffffff55;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-input input{
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+    z-index: 1;
+    background: transparent;
+    color: #fff;
+}
+.footer-input input::placeholder{
+    color: #D9DBE1;
+}
+.footer-input img{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}

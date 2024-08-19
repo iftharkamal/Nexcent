@@ -1,0 +1,223 @@
+.clients-container{
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+.header-tag{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.p-tag{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-color-light);
+    margin-bottom: 10px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 100px;
+    margin-bottom: 50px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 164px;
+    gap: 68px;
+}
+.box{
+    text-align: center;
+    padding: 24px 70px;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    border-radius: 8px;
+}
+.box img{
+    margin-bottom: 10px;
+}
+.box-head{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.box-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color-light);
+}
+.learnmore-field{
+    display: flex;
+    align-items: center;
+    padding: 0 144px;
+}
+.learnmore-field-text{
+    margin-left: 20px;
+}
+.learnmore-field-text .box-head{
+    margin-bottom: 10px;
+}
+.learnmore-field-text .box-text{
+    margin-bottom: 30px;
+    padding-right: 100px;
+}
+.button{
+    padding: 14px 32px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+
+.analytics-container{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 144px;
+}
+.analytics-text{
+    padding-left: 50px;
+}
+.analytics-text h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.analytics-text h4 span{
+    color: var(--primary-color);
+}
+.analytics-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--navbar-text-color);
+}
+.analytic-boxes{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px 90px;
+    padding-right: 130px;
+}
+.analytic-box{
+    display: flex;
+    align-items: center;
+}
+.analytic-box img{
+    margin-right: 15px;
+}
+.numbers{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.number-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color-light);
+}
+.design-info-container{
+    display: flex;
+    align-items: center;
+    padding: 50px 144px;
+}
+.info-text-field{
+    padding-left: 50px;
+    padding-right: 150px;
+}
+.info-text-field .box-head{
+    margin-bottom: 20px;
+}
+.info-text-field .box-text{
+    margin-bottom: 30px;
+}
+
+
+
+.customer-info-container{
+    background-color: var(--background-color);
+    padding: 30px 0;
+    padding-left: 144px;
+    padding-right: 175px;
+    display: flex;
+    align-items: center;
+}
+.customer-info-text-field{
+    padding-left: 50px;
+}
+.customer-info-text-field .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color-light);
+    margin-bottom: 20px;
+} 
+.customer-info-text-field .customer-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+.customer-info-text-field .customer-info-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color-light);
+    margin-bottom: 25px;
+}
+.customer-logos{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+
+}
+.customers-click{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.customers-click img{
+    width: 15px;
+}
+.customers-click p{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+
+
+
+.marketing-container{
+    text-align: center;
+    padding: 40px 144px;
+}
+.marketing-container .box-text{
+    font-size: 16px;
+    padding:0 265px ;
+    margin-bottom: 10px;
+}
+.box-containers{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+.box-container{
+    width: 368px;
+    height: 366px;
+}
+.image-box img{
+    height: 286px;
+    width:368px;
+}
+.text-box{
+    background-color: var(--background-color);
+   
+}

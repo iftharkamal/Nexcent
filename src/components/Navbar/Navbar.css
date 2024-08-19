@@ -1,0 +1,45 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+    font-family: 'Inter';
+    position: fixed;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.navbar-lists{
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar-lists a{
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    
+}
+.navbar-lists :hover{
+    color: var(--primary-color);
+}
+.buttons-field{
+    display: flex;
+    gap: 10px;
+}
+.login{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.signup{
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
